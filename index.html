@@ -1,97 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="descripton" content="Это тестовый сайт-резюме Дениса Денисова, созданный в процессе прохождения базового курса от 
-    Владилена Минина по HTML-CSS " >
-    <meta name="keywords" content="резюме, курс, обучение, бесплатно, html, css, result, school" >
+    Владилена Минина по HTML-CSS ">
+    <meta name="keywords" content="резюме, курс, обучение, бесплатно, html, css, result, school">
     <title>Сайт-Резюме</title>
+
+    <link rel="stylesheet" href="css_style.css">
 </head>
+
 <body>
 
-    <img src="avatar.jpg" width="150" alt="Аватар.JPG">
+    <div class="container">
 
-   <h1>Денис Денисов</h1>
+   <div class="verh">    
+    <div class="avatar">
+    <img src="img/avatar.JPG" width="150" alt="Аватар.JPG">
+    </div>
+
+
+    <div class="osninfo">
+    <h1>Денис Денисов</h1>
+
+    <div class="abzac one">
 
     <p>
-        Я только на пути к <strong>изучению программирования</strong> , решил начать с вёрстки сайтов, с самых основ - <strong> HTML и CSS </strong>. Учусь по курсу от <strong> Result School.</strong> 
+        Я только на пути к <strong>изучению программирования</strong> , решил начать с вёрстки сайтов, с самых основ -
+        <strong> HTML и CSS </strong>. Учусь по курсу от <strong> Result School.</strong>
     </p>
-    
-        <p>Я <em> увлекаюсь музыкой </em>, учусь играть на барабанах. <em> Люблю плавание, картинг, боулинг. </em> 
-    </p>
+    </div>
 
-    <p> <strong>Мои социальные сети:</strong> 
+    <div class="abzac two">
+    <p>Я <em> увлекаюсь музыкой </em>, учусь играть на барабанах. <em> Люблю плавание, картинг, боулинг. </em>
+    </p>
+    </div>
+    <div class="seti">
+    <p>
+         <strong>Мои социальные сети:</strong>
         <br>
-        <a href="https://t.me/h2o33" target="_blank">Telegram</a> <strong>/</strong> 
-        <a href="https://vk.com/id18864118" target="_blank">VK</a>  
+        <a href="https://t.me/h2o33" target="_blank">Telegram</a> <strong>/</strong>
+        <a href="https://vk.com/id18864118" target="_blank">VK</a>
     </p>
+    </div>
+    </div>
+    </div> 
 
-<p> <strong> Список моих хобби</strong>
-<ul>
-    <li>Барабаны</li>
-    <li>Картинг</li>
-    <li>Боулинг</li>
-    <li>Путешествия</li>
-</ul>
-</p>
+    <div class="card hobbey">
+    <h3>Список моих хобби</h3>
+    <ul>
+        <li>Барабаны</li>
+        <li>Картинг</li>
+        <li>Боулинг</li>
+        <li>Путешествия</li>
+    </ul>
+    </div>
 
-<p> <strong> Опыт работы</strong>
+    <div class="card rabota">
+    <h3>Опыт работы</h3>
 
-<table>
- <thead> 
-<tr>
-    <th>Компания</th>
-    <th>Должность</th>
-    <th>Период</th>
-</tr>
-</thead>
+    <table>
+        <thead>
+            <tr>
+                <th>Компания</th>
+                <th>Должность</th>
+                <th>Период</th>
+            </tr>
+        </thead>
 
-<tbody>
-<tr>
-    <td>ПАО "Вымпелком"</td>
-    <td>Менеджер по продажам</td>
-    <td>2016-2017</td>
-</tr>
-<tr>
-    <td>Передовые Платежные Решения</td>
-    <td>Специалист ОКК</td>
-    <td>2017-2019</td>
-</tr>
-<tr>
-    <td>Сайн Сервис</td>
-    <td>Менеджер по продажам</td>
-    <td>2019-наст. время</td>
-</tr>
+        <tbody>
+            <tr>
+                <td>ПАО "Вымпелком"</td>
+                <td>Менеджер по продажам</td>
+                <td>2016-2017</td>
+            </tr>
+            <tr>
+                <td>Передовые Платежные Решения</td>
+                <td>Специалист ОКК</td>
+                <td>2017-2019</td>
+            </tr>
+            <tr>
+                <td>Сайн Сервис</td>
+                <td>Менеджер по продажам</td>
+                <td>2019-наст. время</td>
+            </tr>
 
-</tbody>
-</table>
-</p>
+        </tbody>
+    </table>
+    </div>
 
-<p> <strong> Связаться со мной</strong>
-    <form>
+    
+    <form class="formaos">
+        <h3>Связаться со мной</h3>
+        <div class="pole">
+            <div class="vhpole">
         <div>
             <label for="name">Ваше имя:</label>
-            <input type="text" id="name"
-            placeholder="Введите Ваше имя">
+            <input type="text" id="name" placeholder="Введите Ваше имя">
         </div>
 
         <div>
             <label for="mail">Ваша почта:</label>
-            <input type="email" id="mail"
-            placeholder="Введите email">
+            <input type="email" id="mail" placeholder="Введите email">
         </div>
-
+    </div>
+    
         <div>
-            <label for="area">Сообщение:</label> 
-            <br>
-            <textarea name="area" id="" cols="25" rows="3" placeholder="Введите сообщение"></textarea>
+            <label for="area">Сообщение:</label>
+            <textarea name="area" cols="25" rows="3" placeholder="Введите сообщение"></textarea>
         </div>
-    <button type="submit">Отправить</button>    
 
+        <button type="submit" class="btn">Отправить</button>
+    </div>
     </form>
-</p>
+    
+    </div>
 
 </body>
+
 </html>

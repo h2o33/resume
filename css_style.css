@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+/* Подложка и шрифт */
+body {
+
+    color: rgb(0, 0, 0);
+    background-color: rgba(170, 195, 218, 0.1);
+
+ font-family: 'Rubik', sans-serif;   
+ font-size: 15px;
+ font-weight: 500;
+}
+
+/* Расположение сайта посередине экрана и установка макс ширины*/
+.container{
+    max-width: 1100px;
+    margin:auto;
+}
+
+/* Расстояние между линиями*/
+.abzac {
+    line-height: 1.1;
+}
+
+/*Аватарка*/
+img{
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px #c5d3dd
+}
+
+/* Блоки с хобби и работой*/
+.card {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.hobbey{
+    background-color:rgba(191, 246, 128, 0.438);
+    border-color: rgba(191, 246, 128, 0.438);
+    
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.rabota{
+    background-color:rgba(212, 167, 255, 0.63);
+    border-color: rgba(212, 167, 255, 0.63);
+    
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+/* Ссылки */
+.seti{
+    margin-top: 20px;
+}
+
+a{
+    color:rgb(11, 56, 18);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #67a359;
+}
+
+a:visited{
+    color:#7a7a7a
+}
+
+a:active{
+    color:rgb(0, 2, 129)
+}
+
+/* Кнопка "Отправить" */
+.btn{
+    background: rgb(0, 121, 219);
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 3px
+
+}
+
+.btn:hover{
+    background: #c5d3dd;
+    color:rgb(0, 0, 0);
+}
+
+/* Таблица опыта работы*/
+table{
+ min-width: 80%;
+ margin-left:25px;
+}
+
+table tbody{
+    text-align: left;
+
+}
+
+
+table thead{
+    text-align: left;
+}
+
+/*Перемещение блоков*/
+.verh{
+    display: flex;
+    border: 2px none;
+    margin-top: 15px;
+}
+
+.osninfo{
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.avatar{
+    margin-top: 15px
+}
+
+/* Стилизация формы для связи*/
+
+.formaos h3{
+    text-align: center;
+}
+
+.pole label{
+    display: block;
+    font-size: 14px;
+    color: rgb(59, 79, 97);
+}
+
+.pole input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.vhpole, label{
+   display: flex; 
+   width: 50%;
+   margin-right: 300px;
+}
