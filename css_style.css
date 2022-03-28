@@ -94,7 +94,8 @@ a:active{
     padding: 10px 15px;
     color: white;
     border: none;
-    border-radius: 3px
+    border-radius: 3px;
+    margin-top: 10px;
 
 }
 
